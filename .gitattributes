@@ -1,0 +1,13 @@
+# Gunakan LF untuk semua file teks
+* text=auto eol=lf
+
+# Pastikan Windows batch file tetap CRLF
+*.bat text eol=crlf
+
+# Biarkan file biner tidak diubah
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
